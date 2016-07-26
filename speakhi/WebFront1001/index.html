@@ -1,0 +1,530 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<title>WebFront方案分享</title>
+
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+		<link rel="stylesheet" href="css/web.front.1001.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<section id="themes" data-transition="fade">
+					<h2>Themes</h2>
+					<p>
+						reveal.js comes with a few themes built in: <br>
+						<!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/black.css'); return false;">Black (default)</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/white.css'); return false;">White</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/league.css'); return false;">League</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/sky.css'); return false;">Sky</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/beige.css'); return false;">Beige</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/simple.css'); return false;">Simple</a> <br>
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/serif.css'); return false;">Serif</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/blood.css'); return false;">Blood</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/night.css'); return false;">Night</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/moon.css'); return false;">Moon</a> -
+						<a href="#" onclick="document.getElementById('theme').setAttribute('href','css/theme/solarized.css'); return false;">Solarized</a>
+					</p>
+				</section>
+				
+				<section data-transition="slide" class="text-l">
+					<h2>Agenda</h2>
+					<hr>
+					<ul>
+						<li>html,css,js串烧</li>
+						<li>web发展</li>
+						<li>流行框架介绍,组件化,适合我们的</li>
+						<li>template的世界</li>
+						
+						<li>我们需要什么</li>
+						
+						<li>gulp的介绍</li>
+						<li>webpack的介绍</li>
+						<li>适合我们的开发模式和文件结构</li>
+						<li>现有开发的诟病</li>
+					</ul>
+				</section>
+				
+				<section>
+					<section>
+						<p>html,css,js的发展变化</p>
+					</section>
+					<section>
+						<img src="images/singlehtml.png">
+					</section>
+					<section>
+						<img src="images/html.png">
+					</section>
+					<section>
+						<p>早期的网站一般都是由静态网页制作的。静态网页是相对于动态网页而言，是指没有后台数据库、不含程序和不可交互的网页。静态网页相对更新起来比较麻烦，适用于一般更新较少的展示型网站。容易误解的是静态页面都是htm这类页面，实际上静态也不是完全静态，他也可以出现各种动态的效果，如GIF格式的动画、FLASH、滚动字幕..</p>
+					</section>
+					<section>
+						<img src="images/htmlcss.jpg">
+					</section>
+					<section>
+						<img src="images/css.png">
+					</section>
+					<section>
+						<p>CSS目前最新版本为CSS3，是能够真正做到网页表现与内容分离的一种样式设计语言。相对于传统HTML的表现而言，CSS能够对网页中的对象的位置排版进行像素级的精确控制，支持几乎所有的字体字号样式，拥有对网页对象和模型样式编辑的能力，并能够进行初步交互设计，是目前基于文本展示最优秀的表现设计语言。CSS能够根据不同使用者的理解能力，简化或者优化写法，针对各类人群，有较强的易读性。</p>
+					</section>
+					<section>
+						<img src="images/js1.jpg">
+					</section>
+					<section>
+						<p>在1995年时，由Netscape公司的Brendan Eich，在网景导航者浏览器上首次设计实现而成。因为Netscape与Sun合作，Netscape管理层希望它外观看起来像Java，因此取名为JavaScript。但实际上它的语法风格与Self及Scheme较为接近。</p> 
+						<p>为了取得技术优势，微软推出了JScript，CEnvi推出ScriptEase，与JavaScript同样可在浏览器上运行。为了统一规格，因为JavaScript兼容于ECMA标准，因此也称为ECMAScript。</p>
+					</section>
+					<section>
+					    <img src="images/domtree1.png">
+					</section><section>
+                        <img src="images/domtree2.png">
+                    </section>
+                    <section>
+                        <img src="images/domtree3.png">
+                    </section>
+					<section>
+						<img src="images/browser.jpg">
+						<p><a class="fragment fade-up" href="http://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/#The_main_flow">了解更多浏览器工作机制</a></p>
+					</section>
+				</section>
+				
+				<section>
+					<section>
+					    <p>web发展</p>
+					    <p><small>更多资料<a href="http://www.tianmaying.com/tutorial/web-history">web开发技术发展历史</a></small></p>
+					</section>
+					<section>
+					    <img src="images/MVC.png">
+					</section>
+					<section>
+					    <p>回归Web本质：REST</p>
+					    <p><small>Web开发的重点已经不在于HTTP/HTML/URL这样的Web基础架构了，而是各种平台下的各种框架和组件技术（MVC/ORM/分布式组件技术等等）</small></p>
+					    <p><small>REST（Representation State Transformation）逐渐成为一种流行的Web架构风格。REST鼓励基于URL来组织系统功能，充分利用HTTP本身的语义，而不是仅仅将HTTP作为一种远程数据传输协议。Web应用的开发应该回归Web的本质特征。</small></p>
+					</section>
+					<section>
+					    <img src="images/AJAX.png">
+					</section>
+					<section>
+					    <p><small>我们知道Web应用中用户提交表单时就向Web服务器发送一个请求，服务器接收并处理传来的表单，并返回一个新的网页。而前后两个页面中的往往大部分HTML代码是一样的，每次都返回整个页面内容是一种带宽资源的浪费。而AJAX应用仅向服务器发送并取回必须的数据，并在客户端采用JavaScript处理来自服务器响应，更新页面的局部信息。</small></p>
+					    <p><small>AJAX的出现，以及诸如EXTJS、DOJO等一些前端开发框架的出现，也使得单页应用即SPA（Single Page Application）在这个时候流行起来。</small></p>
+					</section>
+					<section>
+					    <p><small>这种模式下，前后端的分工非常清晰，前后端的关键协作点是 Ajax 接口，规定好交互接口后，前后端工程师就可以根据约定，分头开工，开发环境中通过Mock等方式进行测试，同时在特定时间节点进行前后端集成测试。但是，随着业务功能的愈发复杂（看看现在的Gmail），这种模式本质上和JSP时代的Web开发并无本质区别，只不过是将复杂的业务逻辑从JSP文件转移到了JavaScript文件中而已。现在，对于一个前端功能、交互复杂的SPA，JavaScript代码很容易膨胀（超过10万行）。很自然地，像服务端从JSP向MVC框架转换的过程一样，前端开发也出现了大量的MVC框架，比较典型的包括BackboneJS, AngularJS, EmberJS, KnockoutJS, VueJS, AvalonJS, ReactJS。总的来说，MV*框架的提出是为了解决前端开发的复杂度，提供一套规则组织代码、分层（MVC），通过合理的组织和分层，前端的代码职责明确、清晰，便于开发与测试。</small></p>
+					</section>
+					<section>
+					    <img src="images/Frontend-MVC.png">
+					</section>
+					<section>
+                        <img src="images/Node.png">
+                    </section>
+                    <section>
+                        <h2>小结</h2>
+                        <ul>
+                            <li>Web技术依然在快速发展，Web本身的基础规范也在不断完善</li>
+                            <li>每当技术发展到一定程度，出现某些局限性的时候，就会有更优秀的技术出现来突破这些局限性</li>
+                            <li>WEB前端，框架横飞，大量可能会成为趋向成熟的<b>过渡产品</b>接连开源发布</li>
+                            <li>针对不同使用场景和需求，选择适合自己的才是最重要的</li>
+                        </ul>
+                    </section>
+				</section>
+				
+				<section>
+				    <section>
+				        <p>流行框架介绍,组件化,适合我们的</p>
+				    </section>
+				    <section>
+				        <table style="font-size: 18px;">
+                        <thead>
+				            <tr>
+				                <th></th>
+				                <th>兼容性</th>
+				                <th>学习成本</th>
+				                <th>使用情况</th>
+				                <th>Web native app</th>
+				            </tr>
+				        </thead>
+				        <tbody>
+				            <tr>
+				                <td>Template系列</td>
+				                <td>兼容所有浏览器</td>
+				                <td>低</td>
+				                <td>不清楚，上一代模板引擎</td>
+				                <td>不支持</td>
+				            </tr>
+				            <tr>
+                                <td>Angularjs 1.x</td>
+                                <td>IE9+</td>
+                                <td>高</td>
+                                <td>大量用于项目中</td>
+                                <td>2.0开始支持，还未发布</td>
+                            </tr>
+                            <tr>
+                                <td>Avalonjs 1.x or 2.x</td>
+                                <td>IE6+</td>
+                                <td>高</td>
+                                <td>用得人数不多，不乏大公司使用</td>
+                                <td>不支持</td>
+                            </tr>
+                            <tr>
+                                <td>Vuejs 1.x</td>
+                                <td>IE9+</td>
+                                <td>中等</td>
+                                <td>2016年属于成长期，看好</td>
+                                <td>2.0开始支持，未正式发布</td>
+                            </tr>
+                            <tr>
+                                <td>Reactjs</td>
+                                <td>旧版IE8+，新版IE9+</td>
+                                <td>高</td>
+                                <td>社区渐渐丰富，使用渐多</td>
+                                <td>React Native支持IOS app</td>
+                            </tr>
+                            <tr>
+                                <td>Ionic/mui/weex/weui</td>
+                                <td>移动端开发框架</td>
+                                <td>待研究</td>
+                                <td>火热</td>
+                                <td>支持IOS，Android，Web APP</td>
+                            </tr>
+				        </tbody>
+				        </table>
+				        <hr>
+				        <p class="fragment fade-up">客户端模板引擎分类</p>
+				        <table class="fragment fade-up" style="font-size: 18px;">
+				            <thead>
+				                <tr>
+				                    <td>string-based</td>
+				                    <td>dom-based</td>
+				                    <td>virtual-dom-based</td>
+				                </tr>
+				            </thead>
+			                <tbody>
+			                    <tr>
+			                        <td>template系列</td>
+			                        <td>angularjs,vuejs,avalonjs</td>
+			                        <td>reactjs</td>
+			                    </tr>
+			                </tbody>
+				        </table>
+				    </section>
+				    <section>
+				        <img height="500px" src="images/browser01.png">
+				    </section>
+				    <section>
+				        <img height="500px" src="images/browser02.png">
+				    </section>
+				    <section>
+                        <img height="500px" src="images/browser03.png">
+                    </section>
+                    <section>
+                        <img height="500px" src="images/os.png">
+                    </section>
+                    <section>
+                        <p>关于组件化</p>
+                    </section>
+                    <section>
+                        <img src="images/2-1002.png">
+                    </section>
+                    <section>
+                        <img src="images/2-1003.png">
+                    </section>
+                    <section>
+                        <img src="images/1-1001.png">
+                    </section>
+                    <section>
+                        <h2>小结</h2>
+                        <ul>
+                            <li>PC端方面，IE8仍然拥有很多用户</li>
+                            <li>结合我们的PC端方面的需求，需要兼容到IE8</li>
+                            <li>PC端门户网站开发需要简易性，高可维护性，高灵活度</li>
+                            <li>移动端方面可以使用mv*框架，微信端可选择支持native app的框架</li>
+                        </ul>
+                    </section>
+				</section>
+				
+				<section>
+				    <section>
+				        <p>tempalte的世界</p>
+				    </section>
+				    <section>
+				        <img src="images/testing.png">
+				    </section>
+				    <section>
+				        <p><small>artTemplate</small></p>
+				        <img src="images/template01.png">
+				    </section>
+				    <section>
+                        <p><small>vuejs</small></p>
+                        <img height="500" src="images/vuejs.png">
+                    </section>
+                    <section>
+                        <p><small>vuejs</small></p>
+                        <img height="500" src="images/vue02.png">
+                    </section>
+				</section>
+				
+				<section data-transition="slide" class="text-l" style="font-size: 30px;">
+					<h2>WEB前端,我们想要什么</h2>
+					<hr>
+					<ul>
+						<li>
+							<p>工程化</p>
+							<small>用于处理静态资源文件（css，js，images）的编译，压缩，合并和重命名,提升页面访问速度</small>
+						</li>
+						<li>
+							<p>组件化</p>
+							<small>方便模块复用,减少重复性逻辑的编写,便于开发和维护</small>
+						</li>
+						<li>
+							<p>前后端分离</p>
+							<small>前端渲染的数据来源改由JS接口获取,后端只提供数据服务接口,不再关注页面级渲染</small>
+						</li>
+						<li>
+							<p>客户端请求动静分离</p>
+							<small>即静态数据请求和动态数据请求的分离,客户端请求静态资源如(静态页面，图片)则交由高性能的nginx反向代理服务器处理,当客户端请求的页面需要加载动态数据时,访问的数据接口交由tomcat处理</small>
+						</li>
+					</ul>
+				</section>
+				
+				<section data-transition="slide" class="text-l">
+					<section>
+						<h2>前端，目前我们需要解决什么问题</h2>
+					</section>
+					<section>
+						<p>前端人员经常需要和后端人员沟通联调,会彼此干扰对方的工作状态,同时消耗无用时间</p>
+						<small>解决方案:前后端分离,前后端严格遵照规范化的接口文档进行开发</small>
+					</section>
+					<section>
+						<p>浏览器端的缓存</p>
+						<small>我们经常会碰到每次发版过后,有些页面的样式更新,不很及时,需要刷新甚至多次刷新页面才能显示正常</small>
+						<small>解决方案:使用工程化工具,每次发版都有不一样的样式文件名,浏览器发现有新的资源,则会重新请求数据</small>
+					</section>
+					<section>
+						<p>兼容性的严格遵照</p>
+						<small>偶尔会有学员使用的低版本浏览器有页面问题,最终由我们IT服务人员帮其升级浏览器</small>
+						<small>解决方案：基于我们网站的功能考虑,当前IE8是我们合适的选择，框架选型，功能测试严格适配IE8版本,对于IE低版本浏览器,我们则制作浏览器升级引导页面进行引导</small>
+					</section>
+					<section>
+						<p>响应式问题</p>
+						<small><a href="http://www.zhihu.com/question/25836425">知乎话题探讨</a></small>
+						<small><a href="http://www.yixieshi.com/19646.html">更多了解开发及设计原则</a></small>
+						<ul>
+						    <li>设计需求复杂时，前端的开发成本没有任何减轻</li>
+						    <li>无论是针对桌面还是移动的CSS代码（甚至图片资源文件）都会被同等的下载到客户端（没有考虑移动端的网络优化）</li>
+						    <li>如果JS不写两套，桌面端的交互和移动端的交互很难针对平台作出差异</li>
+						</ul>
+					</section>
+					<section>
+					    <p>响应式解决什么问题</p>
+					    <small>屏幕尺寸越来越多，不同设备的交互特质也有着巨大的差别，我们希望我们的网站能够在移动手机、平板、桌面电脑，在键鼠、触摸、无障碍设备上都有优秀的用户体验。所以，我们需要网站的用户界面在不同的平台上有所不同</small>
+					</section>
+					<section>
+                        <small>根据你的产品特点，进行两种不同的设计<br/>根据你的设计需求，选择合适的技术方案。</small>
+                        <small>A与B不是硬币的正反面，它们为了解决同一个问题而生，它们是同一种思想的延伸。</small>
+                    </section>
+				</section>
+				
+				<section data-transition="slide" class="text-l">
+				    <section>
+				        <p>gulp工具</p>
+				        <hr>
+				        <p><small>gulp 是基于流的自动化构建工具，借助 node 实现 Web 前端自动化开发的工具，利用它能够极大的提高开发效率。</small></p>
+				        <p><small>在 Web 前端开发工作中有很多“重复工作”，比如压缩CSS/JS文件。</small></p>
+				        <p><small>而这些工作都是有规律的。找到这些规律，并编写 gulp 配置代码,让 gulp 自动执行这些“重复工作”</small></p>
+				        <p><small>Gulp 是在项目开发过程中自动执行任务的一个工具，通过它可以方便地在开发时（或者发布前），对目标文件的内容进行I/O操作。</small></p>
+				        <p><small>由于 Gulp 是基于流的，所以 Gulp 对于文件内容的操作就像是水槽对于水流，水流流经水槽，水槽将水流塑造成不同的形状。</small></p>
+				    </section>
+				    <section>
+				        <p>gulp可以干什么</p>
+				        <hr>
+				        <ul>
+				            <li>使用 gulp压缩JS</li>
+				            <li>使用 gulp压缩CSS</li>
+				            <li>使用 gulp压缩图片</li>
+				            <li>使用 gulp编译Sass</li>
+				            <li>使用gulp生成版本 hash 的静态文件</li>
+				        </ul>
+				    </section>
+				    <section>
+				        <img src="images/liu.jpg">
+				    </section>
+				    <section data-markdown>
+				        ```
+                        var gulp = require('gulp')
+                        var uglify = require('gulp-uglify')
+                        gulp.task('script', function() {
+                            gulp.src('js/*.js')
+                                .pipe(uglify())
+                                .pipe(gulp.dest('dist/js'))
+                        })
+				        ```
+				    </section>
+				    <section>
+				        <ul>
+				            <li>gulp.task(name, fn) - 定义任务，第一个参数是任务名，第二个参数是任务内容。</li>
+				            <li>gulp.src(path) - 选择文件，传入参数是文件路径。</li>
+				            <li>gulp.dest(path) - 输出文件</li>
+				            <li>gulp.pipe() - 管道，你可以暂时将 pipe 理解为将操作加入执行队列</li>
+				        </ul>
+				    </section>
+				    <section data-markdown>
+				        <p><small>接着输入 gulp script 执行任务</small></p> 
+				        ```
+				        gulp script
+                        [13:34:57] Using gulpfile ~/Documents/code/gulp-book/demo/chapter2/gulpfile.js
+                        [13:34:57] Starting 'script'...
+                        [13:34:57] Finished 'script' after 6.13 ms
+				        ```
+				    </section>
+				    <section data-markdown>
+				        ```
+				        ├── gulpfile.js
+                        ├──  js
+                        │ └── a.js
+                        ├──  dist
+                        │ └── js
+                        │     └── a.js
+                        └── node_modules
+                            └── gulp-uglify
+				        ```
+				    </section>
+				    <section data-markdown>
+				        ```
+				        // a.js
+                        function demo (msg) {
+                            alert('--------\r\n' + msg + '\r\n--------')
+                        }
+                        
+                        demo('Hi')
+				        ```
+				    </section>
+				   <section data-markdown>
+                        ```
+                        function demo(n){alert("--------\r\n"+n+"\r\n--------")}demo("Hi");
+                        ```
+                    </section>
+				</section>
+				
+				<section>
+				    <section>webpack</section>
+				    <section>
+				        <img src="images/what-is-webpack.png">
+				    </section>
+				    <section data-markdown>
+				        ```
+				        var webpack = require('webpack');
+
+                        module.exports = {
+                            //插件项
+                            plugins: [
+                                //提公用js到common.js文件中
+                                new webpack.optimize.CommonsChunkPlugin('common.js'),
+                                //将样式统一发布到style.css中
+                                new ExtractTextPlugin("style.css", {
+                                    allChunks: true,
+                                    disable: false
+                                }),
+                                //使用ProvidePlugin加载使用频率高的模块
+                                new webpack.ProvidePlugin({
+                                    $: "webpack-zepto"
+                                })
+                            ],
+                            //页面入口文件配置
+                            entry: {
+                                index : './src/main.js'
+                            },
+                            //入口文件输出配置
+                            output: {
+                                path: __dirname +'/dist/',
+                                filename: '[name].js'
+                            },
+                            module: {
+                                //加载器配置
+                                loaders: [
+                                    { test: /\.css$/, loader: 'style-loader!css-loader' },
+                                    { test: /\.scss$/, loader: 'style!css!sass?sourceMap'},
+                                    { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192'}
+                                ]
+                            },
+                            //其它解决方案配置
+                            resolve: {
+                                extensions: ['', '.js', '.json', '.scss'],
+                                alias: {
+                                    filter: path.join(__dirname, 'src/filters')
+                                }
+                            }
+                        };
+				        ```
+				    </section>
+				    <section>
+				        <img height="500" src="images/webpack02.png">
+				    </section>
+				    <section>
+                        <img height="500" src="images/webpack03.png">
+                    </section>
+				</section>
+				
+				<section>
+				    <section>
+    				    <p><small>适合我们的开发模式和文件结构</small></p>
+				    </section>
+				    <section>
+                        <img src="images/s.png">
+                    </section>
+				</section>
+				
+				<section>
+				    <p><small>现有开发中的问题</small></p>
+				</section>
+				
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script src="js/web.front.1001.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
