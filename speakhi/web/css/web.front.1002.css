@@ -1,0 +1,20 @@
+/*
+ * for web front 1001
+ ********************************************
+ */
+
+.show {
+	dispaly: block;
+}
+.hide {
+	display: hidden;
+}
+.text-l {
+	text-align: left;
+}
+.text-m {
+	text-align: center;
+}
+.text-r {
+	text-align: right;
+}

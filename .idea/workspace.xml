@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dba488a1-762d-47b8-a778-0166557adc66" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/league-gothic/league-gothic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/league-gothic/league-gothic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/league-gothic/league-gothic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-italic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-italic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-semibold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-semibold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/WebFront1001/web1002.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/print/paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/print/pdf.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/reveal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/reveal.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/beige.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/blood.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/league.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/moon.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/serif.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/simple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/sky.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/solarized.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/beige.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/black.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/blood.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/league.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/moon.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/night.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/serif.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/simple.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/sky.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/solarized.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/source/white.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/template/mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/template/settings.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/template/theme.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/theme/white.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/web.front.1001.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/css/web.front.1002.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/js/reveal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/js/web.front.1001.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/js/web.front.1002.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/css/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/league-gothic/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/league-gothic/league-gothic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/font/source-sans-pro/source-sans-pro.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/js/classList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/js/head.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/lib/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/highlight/highlight.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/markdown/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/markdown/example.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/markdown/marked.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/math/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/multiplex/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/multiplex/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/multiplex/master.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/multiplex/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/notes-server/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/notes-server/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/notes-server/notes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/notes/notes.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/notes/notes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/print-pdf/print-pdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/search/search.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/plugin/zoom-js/zoom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/speakhi/web/web1002.html" />
+    </list>
+    <ignored path="slides.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="slides" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.40263543">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/speakhi/WebFront1001/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1695">
+                  <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="web1002.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/speakhi/web/web1002.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="363">
+                  <caret line="112" column="67" selection-start-line="112" selection-start-column="67" selection-end-line="112" selection-end-column="67" />
+                  <folding>
+                    <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="e#1023#1101#0" expanded="false" />
+                    <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                    <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/speakhi/WebFront1001/index.html" />
+        <option value="$PROJECT_DIR$/speakhi/WebFront1001/web1002.html" />
+        <option value="$PROJECT_DIR$/speakhi/web/web1002.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="D:/program files (x86)/Git/bin/git.exe" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHubWorkSpace\slides\speakhi\WebFront1001" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dba488a1-762d-47b8-a778-0166557adc66" name="Default" comment="" />
+      <created>1473586812692</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473586812692</updated>
+      <workItem from="1473586828584" duration="3770000" />
+      <workItem from="1473695891046" duration="9580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="13350000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15885799" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/speakhi/WebFront1001/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speakhi/web/web1002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1023#1101#0" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speakhi/WebFront1001/web1002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speakhi/WebFront1001/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1695">
+          <caret line="269" column="16" selection-start-line="269" selection-start-column="16" selection-end-line="269" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speakhi/web/web1002.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="112" column="67" selection-start-line="112" selection-start-column="67" selection-end-line="112" selection-end-column="67" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1023#1101#0" expanded="false" />
+            <element signature="n#section#5;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#script#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
